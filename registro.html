@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocina de Tiago</title>
+    <link rel="stylesheet" href="/CODOACODO/tp1 de la cocina/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button><a href="index.html">Inicio</a></button>
+            <button><a href="acercaDe.html">Acerca de</a></button>
+            <button><a href="contacto.html">Contacto</a></button>
+            <button><a href="sucursales.html">Sucursales</a></button>
+            <button><a href="registro.html">Registrese</a></button>
+        </nav>
+        <h1 style="text-align: center;">La Cocina de Tiago</h1>
+    </header>
+    <main>
+        <h3>Formulario de Registro</h3>
+        <form action="15.1- show_data.html" method="post">
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre aqui..." size="30">
+            <br><br>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido aqui..." size="30">
+            <br><br>
+
+            <label for="direccion">Direccion:</label>
+            <input type="text" name="direccion" id="direccion" placeholder="Ingrese su direccion aqui..." size="30">
+            <br><br>
+
+            <label for="Ciudad">Ciudad:</label>
+            <input type="text" name="Ciudad" id="Ciudad" value="Mendoza" size="30" >
+            <br><br>
+
+            <label for="CP">Codigo Postal:</label>
+            <input type="number" name="CP" id="CP" placeholder="Ingrese su codigo postal..." size="30" >
+            <br><br>
+
+            <label for="nac">Fecha de Nacimiento:</label>
+            <input type="date" name="nac" id="nac" size="30" >
+            <br><br>
+
+            <p>Genero:
+            <label for="hombre">
+                <input type="radio" name="genero" id="hombre" value="1">Hombre
+            </label>
+            <label for="no">
+                <input type="radio" name="genero" id="mujer" value="2">Mujer
+            </label></p>
+
+            <p>Estudios:
+            <label for="primario">
+                <input type="checkbox" name="estudios" id="primario" value="1">Primario
+            </label>
+            <label for="secundario">
+                <input type="checkbox" name="estudios" id="secundario" value="2">Secundario
+            </label>
+            <label for="universitario">
+                <input type="checkbox" name="estudios" id="universitario" value="3">Universitario
+            </label></p>
+            <br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer style="margin-top: 200px;">
+        <p style="text-align: center;">Derechos reservados @2022</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,16 @@
+header, footer {
+    background-color: black;
+}
+a, h1 {
+    color: white;
+}
+button {
+    margin-top: 15px;
+    margin-left:10px;
+    background-color: gray;
+}
+footer p {
+    /* margin-top: 15px;
+    margin-bottom: 15px; */
+    color: rgb(255, 255, 255);
+}
